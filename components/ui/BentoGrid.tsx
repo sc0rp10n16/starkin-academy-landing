@@ -52,8 +52,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["Prompt Engineering", "Cyber Security", "Wordpress"];
+  const rightLists = ["Flutter", "HTML & CSS", "Javascript"];
 
   const handleClick = () => {
 

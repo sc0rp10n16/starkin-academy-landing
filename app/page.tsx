@@ -1,5 +1,7 @@
+import Courses from "@/components/Courses";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+import Testimonial from "@/components/Testimonial";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 import Image from "next/image";
@@ -16,6 +18,8 @@ export default function Home() {
         />
         <Hero/>
         <Grid/>
+        <Courses/>
+        <Testimonial/>
       </div>
     </main>
   );

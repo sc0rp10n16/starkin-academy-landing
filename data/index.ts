@@ -69,35 +69,35 @@ export const gridItems = [
   },
 ];
 
-export const projects = [
+export const courses = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Cyber Security: Beginner to PRO",
+    des: "Cyber Security: Beginner to PRO takes you from the fundamentals to advanced techniques in protecting digital assets. Learn to identify threats, secure systems, and safeguard data in today's ever-evolving cyber landscape.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Flutter Fullstack Mastery: From Frontend to Backend",
+    des: "Flutter Fullstack Mastery equips you with the skills to develop complete applications, from frontend design to backend functionality. Learn to build seamless, cross-platform apps with a unified codebase using Flutter and Dart.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "WordPress Development: Build and Manage Professional Websites",
+    des: "You'll learn to build and manage professional websites with ease. You'll master themes, plugins, and customization, enabling you to create dynamic, responsive sites for any purpose.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Mastering Prompt Engineering: Crafting Effective AI Interactions",
+    des: "We teach you to craft precise prompts for AI models, ensuring accurate and effective responses. Master this skill to optimize AI interactions for various applications, from content creation to automation.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
@@ -107,33 +107,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Starkin Academy transformed my career! The hands-on projects and expert guidance helped me land a job at TechCorp. I highly recommend their courses to anyone looking to excel in tech.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "Fullstack Developer at TechCorp",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "The Figma UI/UX course was a game-changer for me. Starkin Academy provided real-world training that made me confident in my skills and prepared me for a top design role.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "UI/UX Designer at Creative Minds",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "I never imagined I could build complete apps until I joined Starkin Academy. The Flutter Fullstack course gave me everything I needed to succeed in the industry.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "Flutter Developer at AppSolutions",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Starkin Academy's WordPress Development course was fantastic! I went from knowing nothing to managing professional websites for clients. Their support and resources are top-notch.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "WordPress Developer at WebDynamics",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "The Cyber Security course took me from a beginner to a pro. The in-depth knowledge and practical skills I gained at Starkin Academy have made a huge difference in my career.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "Cyber Security Specialist at SecureNet",
   },
 ];
 
