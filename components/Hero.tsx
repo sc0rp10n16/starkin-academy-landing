@@ -24,9 +24,10 @@ const Hero = () => {
                     words="Empower Your Future with Industry-Ready Skills"
                     filter={false}
                 />
-                <p className="uppercase tracking-widest text-blue-100 max-w-80 text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+                <img src="/starkin-logo.png" alt="logo" className="h-52 w-52" />
+                {/* <p className="uppercase tracking-widest text-blue-100 max-w-80 text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
                     Hi, Welcome to Starkin Academy
-                </p>
+                </p> */}
                 <a href="#about">
                     <MagicButton
                         title="Join Now"

@@ -1,4 +1,6 @@
+import Approach from "@/components/Approach";
 import Courses from "@/components/Courses";
+import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Testimonial from "@/components/Testimonial";
@@ -19,7 +21,9 @@ export default function Home() {
         <Hero/>
         <Grid/>
         <Courses/>
+        <Approach/>
         <Testimonial/>
+        <Footer/>
       </div>
     </main>
   );

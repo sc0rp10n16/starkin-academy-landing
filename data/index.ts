@@ -1,3 +1,5 @@
+
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Courses", link: "#courses" },
@@ -74,7 +76,7 @@ export const courses = [
     id: 1,
     title: "Cyber Security: Beginner to PRO",
     des: "Cyber Security: Beginner to PRO takes you from the fundamentals to advanced techniques in protecting digital assets. Learn to identify threats, secure systems, and safeguard data in today's ever-evolving cyber landscape.",
-    img: "/p1.svg",
+    img: "/cybersec.jpeg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
@@ -82,7 +84,7 @@ export const courses = [
     id: 2,
     title: "Flutter Fullstack Mastery: From Frontend to Backend",
     des: "Flutter Fullstack Mastery equips you with the skills to develop complete applications, from frontend design to backend functionality. Learn to build seamless, cross-platform apps with a unified codebase using Flutter and Dart.",
-    img: "/p2.svg",
+    img: "/flutter.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
@@ -90,7 +92,7 @@ export const courses = [
     id: 3,
     title: "WordPress Development: Build and Manage Professional Websites",
     des: "You'll learn to build and manage professional websites with ease. You'll master themes, plugins, and customization, enabling you to create dynamic, responsive sites for any purpose.",
-    img: "/p3.svg",
+    img: "/wordpress.jpeg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
@@ -98,7 +100,7 @@ export const courses = [
     id: 4,
     title: "Mastering Prompt Engineering: Crafting Effective AI Interactions",
     des: "We teach you to craft precise prompts for AI models, ensuring accurate and effective responses. Master this skill to optimize AI interactions for various applications, from content creation to automation.",
-    img: "/p4.svg",
+    img: "/prompt.jpeg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
@@ -204,14 +206,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/insta.svg",
+    link: "https://www.instagram.com/starkinacademy/"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/wha.svg",
+    link: ""
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/company/starkinacademy/"
   },
 ];

@@ -14,11 +14,11 @@ const Courses = () => {
                     <div key={id} className="lg:min-h-[32.5rem] sm:h-[41rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
                         <PinContainer title="Register Now!" href="/contact-us">
                             <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh]  mb-10">
-                                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
+                                {/* <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                                     <img src="/bg.png" alt="bg-img" />
 
-                                </div>
-                                <img src={img} alt={title} className="z-10 absolute bottom-0" />
+                                </div> */}
+                                <img src={img} alt={title} className="rounded-lg object-cover aspect-auto z-10 absolute bottom-0 sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh]" />
                             </div>
                             <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-5">
                                 {title}
