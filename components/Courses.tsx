@@ -9,7 +9,7 @@ const Courses = () => {
             Explore Our {" "}
             <span className="text-purple">Featured Courses</span>
         </h1>
-            <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
+            <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-10 mt-10">
                 {courses.map(({id, title, des, img, iconLists, link})=>(
                     <div key={id} className="lg:min-h-[32.5rem] sm:h-[41rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
                         <PinContainer title="Register Now!" href="/contact-us">
@@ -23,7 +23,7 @@ const Courses = () => {
                             <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-5">
                                 {title}
                             </h1>
-                            <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-3">
+                            <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
                                 {des}
                             </p>
                             <div className="flex items-center justify-between mt-7 mb-3">
