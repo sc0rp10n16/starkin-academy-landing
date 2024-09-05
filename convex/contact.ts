@@ -6,14 +6,16 @@ export const contactData = mutation({
         Fname: v.string(),
         Lname: v.string(),
         email: v.string(),
+        phone: v.string(),
         subject: v.string(),
         message: v.string(),
     },
     handler: async (ctx, args) => {
-        await ctx.db.insert("student-data", {
+        await ctx.db.insert("studentData", {
             Fname: args.Fname,
             Lname: args.Lname,
             email: args.email,
+            phone: args.phone,
             subject: args.subject,
             message: args.message,
         })

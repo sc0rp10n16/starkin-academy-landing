@@ -3,19 +3,29 @@ import React, { useState } from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
+import { useMutation } from "convex/react";
+import { api } from "@/convex/_generated/api";
 
 
 const ContactUsPage = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("Form submitted");
+    createContact({
+      Fname: fname,
+      Lname: lname,
+      email: email,
+      phone:phone,
+      subject: subject,
+      message: message,
+    })
   };
   const [fname, setFname] = useState("")
   const [lname, setLname] = useState("")
   const [email, setEmail] = useState("")
+  const [phone, setPhone] = useState("")
   const [subject, setSubject] = useState("")
   const [message, setMessage] = useState("")
-
+  const createContact = useMutation(api.contact.contactData)
 
   return (
     <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
@@ -38,6 +48,10 @@ const ContactUsPage = () => {
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Address</Label>
           <Input id="email" placeholder="yourname@gmail.com" type="email" value={email} onChange={(e)=>setEmail(e.target.value)} />
+        </LabelInputContainer>
+        <LabelInputContainer className="mb-4">
+          <Label htmlFor="email">Phone Number</Label>
+          <Input id="phone" placeholder="+91 9999999999" type="phone" value={phone} onChange={(e)=>setPhone(e.target.value)} />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="subject">Subject</Label>
